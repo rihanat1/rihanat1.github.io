@@ -42,8 +42,8 @@ avatarUrl: ""  # Demo avatar — replace with your own photo URL (see instructio
 #   2. Upload that PDF to Google Drive / Dropbox and copy the direct link
 #   3. Paste the link below and update resumeFileName accordingly
 #
-# resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
-# resumeFileName: "Git_Vitae_Resume.pdf"
+resumeUrl: "https://rihanat1.github.io/Resume-.pdf"
+resumeFileName: "Rihanat_CV.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true         # Shows "Open to Opportunities" banner when true
