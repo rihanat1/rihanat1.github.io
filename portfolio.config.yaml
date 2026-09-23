@@ -138,7 +138,7 @@ projects:
   - name: "RIRISLUXEEATS"
     description: "A restaurant website where users browse international dishes, view details, and manage a shopping cart. Features homepage carousel, menu search and cuisine filters, skeleton loaders, and a full cart flow with quantity management. Cart view and checkout are in progress. Built with React, Vite, Tailwind CSS, React Router, and the Context API, with dish data fetched from the DummyJSON Recipes API."
     tags: [React.js, Vite, Tailwind CSS, React Router, Axios]
-    liveUrl: ""
+    liveUrl: "https://ririsluxeeats.netlify.app/"
     repoUrl: "https://github.com/rihanat1/RIRIsLuxeEats"
     featured: true
 
