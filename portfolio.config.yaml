@@ -68,7 +68,7 @@ contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree
 # Set show: false to hide any section from your portfolio
 sections:
   - { id: about,          show: true  }
-  - { id: stats,          show: false }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
+  - { id: stats,          show: true }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
@@ -94,6 +94,10 @@ about: |
   Tailwind CSS. My background in math and computer science gives me a strong
   foundation in logic and problem-solving. I am looking for a frontend role
   where I can contribute to real products and grow with a team.
+
+# ── Stats ──────────────────────────────────────────────────────────────
+stats:
+  - { label: "Projects Built", value: 3, suffix: "" }
 
 
 # ── Languages ──────────────────────────────────────────────────────────
