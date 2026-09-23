@@ -50,7 +50,7 @@ openToWork: true         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+colorPreset: "ocean"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
 # primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
                            # Overrides colorPreset above. To find a hex code:
                            #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
@@ -95,18 +95,6 @@ about: |
   foundation in logic and problem-solving. I am looking for a frontend role
   where I can contribute to real products and grow with a team.
 
-
-# ── Stats ──────────────────────────────────────────────────────────────
-# Customise each label and value freely — change "Projects Shipped" to
-# "Active Customers", "Happy Clients", "Open Source Stars", etc.
-# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
-# Remove all entries or set show: false above to hide this section.
-
-
-# Examples of other combinations you can use:
-#   - { label: "Active Users",    value: 10000, suffix: "+" }
-#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
-#   - { label: "Countries",       value: 12,    suffix: ""  }
 
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
