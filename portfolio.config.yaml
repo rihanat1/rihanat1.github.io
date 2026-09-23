@@ -127,7 +127,7 @@ projects:
   - name: "PPA Scout"
     description: "A website that helps NYSC corps members in Nigeria find their Place of Primary Assignment (PPA). Users can search, filter, and browse companies, schools, and organizations, or submit new entries. Built with vanilla HTML, CSS (Flexbox & Grid), and JavaScript — no frameworks or dependencies. Currently uses sample data for demonstration."
     tags: [HTML5, CSS3, JavaScript]
-    liveUrl: ""
+    liveUrl: "https://ppa-scout-ng.netlify.app/"
     repoUrl: "https://github.com/rihanat1/ppa-scout"
     featured: true
 
