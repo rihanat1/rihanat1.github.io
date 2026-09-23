@@ -12,18 +12,18 @@
 # ║                                                                      ║
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
+siteUrl: "https://rihanat1.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
+name: "Bello Rihanat Oluwayemisi"              # Your name — shown in the header and used as a fallback in the avatar
+title: "Junior Frontend Developer"
+tagline: "Frontend developer with a foundation in mathematics and computer science, building clean and responsive websites."
+email: "bellorihanat015@gmail.com"
 phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
+location: "Lagos"
+avatarUrl: ""  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -76,23 +76,24 @@ sections:
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
+  - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  github:   "https://github.com/rihanat1"
+  linkedin: "https://www.linkedin.com/in/bello-rihanat-490676266/"
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  I am a frontend developer with a BSc in Mathematics and Computer Science.
+  I build clean, responsive websites using HTML, CSS, JavaScript, React, and
+  Tailwind CSS. My background in math and computer science gives me a strong
+  foundation in logic and problem-solving. I am looking for a frontend role
+  where I can contribute to real products and grow with a team.
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
@@ -100,11 +101,7 @@ about: |
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
-stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -114,168 +111,79 @@ stats:
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "English",  level: "Fluent"        }
+  - { name: "Yoruba",  level: "Native" }
+  - { name: "Turkish", level: "Basic"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items: [HTML5, CSS3, JavaScript, React, Tailwind CSS, Responsive Design]
+  - category: "Tools and Platforms"
+    items: [Git, GitHub, Figma, Vs Code, Netlify]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "Zulfah"
+    role: "Intern"
+    period: "2026 – Present"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
-    highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      Currently interning at Zulfah, where I am being trained in frontend development fundamentals and working alongside the team to build practical skills. Beginning backend development training in the coming months. Received a letter of recommendation for my commitment and progress.
+ 
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
-    description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
-    highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
 
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
-    description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "PPA Scout"
+    description: "A website that helps NYSC corps members in Nigeria find their Place of Primary Assignment (PPA). Users can search, filter, and browse companies, schools, and organizations, or submit new entries. Built with vanilla HTML, CSS (Flexbox & Grid), and JavaScript — no frameworks or dependencies. Currently uses sample data for demonstration."
+    tags: [HTML5, CSS3, JavaScript]
+    liveUrl: ""
+    repoUrl: "https://github.com/rihanat1/ppa-scout"
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
+  - name: "RIRISLUXEEATS"
+    description: "A restaurant website where users browse international dishes, view details, and manage a shopping cart. Features homepage carousel, menu search and cuisine filters, skeleton loaders, and a full cart flow with quantity management. Cart view and checkout are in progress. Built with React, Vite, Tailwind CSS, React Router, and the Context API, with dish data fetched from the DummyJSON Recipes API."
+    tags: [React.js, Vite, Tailwind CSS, React Router, Axios]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+    repoUrl: "https://github.com/rihanat1/RIRIsLuxeEats"
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
+  - name: "YAISHA"
+    description: "A landing page built for a real client — a professional hairstylist. Designed and built from scratch based on the client's specific instructions for how she wanted the site to look and feel. The site features a hero section with a booking button, an about section, a services showcase, client reviews, contact details and others, with a black and gold theme requested by the client to match her brand. Includes external links to her existing Canva payment pages. Built with React.js and Tailwind CSS."
+    tags: [React.js, Tailwind CSS]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
+    repoUrl: "https://github.com/rihanat1/YAISHA"
+    featured: true
+
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "Eastern Mediterranean University, Famagusta, Turkish Republic of Northern Cyprus"
+    degree: "B.S. Mathematics and Computer Science"
+    period: "2022 – 2026"
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
+  - title: "Frontend Development Certificate"
+    issuer: "Zulfah"
+    date: "2026"
+    credentialUrl: "https://drive.google.com/file/d/1ZeWIOiZNGqLixSM6IOlHElvX_cCo_O19/view"
     badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
+    tags: [HTML5, CSS3, JavaScript, React, Tailwind CSS, Responsive Design]
 
+ 
 
 # ── Publications ───────────────────────────────────────────────────────
 # Optional — ideal for researchers, academics, and technical writers.
 # type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
-
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
+publications: []
+  
 
 # ── Testimonials ───────────────────────────────────────────────────────
-testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
-
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
+testimonials: []
+ 
 
 # ── Analytics (optional, always free) ──────────────────────────────────────
 # Two ways to track who visits your portfolio — both free, no credit card:
@@ -305,6 +213,6 @@ testimonials:
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: true
+  enabled: false
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
