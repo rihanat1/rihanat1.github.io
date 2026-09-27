@@ -145,7 +145,7 @@ projects:
   - name: "YAISHA"
     description: "A landing page built for a real client — a professional hairstylist. Designed and built from scratch based on the client's specific instructions for how she wanted the site to look and feel. The site features a hero section with a booking button, an about section, a services showcase, client reviews, contact details and others, with a black and gold theme requested by the client to match her brand. Includes external links to her existing Canva payment pages. Built with React.js and Tailwind CSS."
     tags: [React.js, Tailwind CSS]
-    liveUrl: ""
+    liveUrl: "https://madebyyaisha.com/"
     repoUrl: "https://github.com/rihanat1/YAISHA"
     featured: true
 
