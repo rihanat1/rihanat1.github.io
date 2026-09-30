@@ -136,7 +136,7 @@ projects:
     featured: true
 
   - name: "RIRISLUXEEATS"
-    description: "WORK IN PROGRESS — A restaurant website where users browse international dishes, view details, and manage a shopping cart. Features homepage carousel, menu search and cuisine filters, skeleton loaders, and quantity management in the cart. Built with React, Vite, Tailwind CSS, React Router, and the Context API, with dish data fetched from the DummyJSON Recipes API. In progress: Cart view, checkout flow, and authentication. Auth will allow guest browsing and cart use, with sign-in required only at checkout. Performance note: 30 featured dishes are bundled locally so the menu renders instantly on mobile, where the API can be slow. Once the DummyJSON API resolves, its dishes merge in and display ahead of the local list — with the local list acting as a fallback if the API fails."
+    description: "A restaurant website where users browse international dishes, search by cuisine, and manage a shopping cart. Guests can browse freely and only sign in at checkout, with details persisted via localStorage. Built with React, Vite, Tailwind CSS, React Router, and the Context API, with dishes from the DummyJSON Recipes API. Performance note: 30 featured dishes are bundled locally so the menu renders instantly on mobile, where the API is slow — API dishes merge in once loaded, with the local list as fallback."
     tags: [React.js, Vite, Tailwind CSS, React Router, Axios]
     liveUrl: "https://ririsluxeeats.netlify.app/"
     repoUrl: "https://github.com/rihanat1/RIRIsLuxeEats"
