@@ -89,12 +89,7 @@ social:
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I am a frontend developer with a BSc in Mathematics and Computer Science.
-  I build clean, responsive websites using HTML, CSS, JavaScript, React, and
-  Tailwind CSS. My background in math and computer science gives me a strong
-  foundation in logic and problem-solving. I am looking for a frontend role
-  where I can contribute to real products and grow with a team.
-
+  I am a frontend developer with a BSc in Mathematics and Computer Science. || I build clean, responsive websites using HTML, CSS, JavaScript, React, and Tailwind CSS. My math and computer science background shapes how I approach problems — breaking them down logically and solving them step by step. || I am looking for a frontend role where I can contribute to real products and grow with a team.
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
   - { label: "Projects Built", value: 3, suffix: "" }
