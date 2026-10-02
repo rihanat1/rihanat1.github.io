@@ -89,7 +89,7 @@ social:
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I am a frontend developer with a BSc in Mathematics and Computer Science. || I build clean, responsive websites using HTML, CSS, JavaScript, React, and Tailwind CSS. My math and computer science background shapes how I approach problems — breaking them down logically and solving them step by step. || I am looking for a frontend role where I can contribute to real products and grow with a team.
+ I  am a frontend developer with a BSc in Mathematics and Computer Science. I build clean, responsive websites with HTML, CSS, JavaScript, React, and Tailwind CSS. My math and computer science background shapes how I solve problems by breaking them down logically and work through them step by step. I am looking for a frontend role where I can work on real products and grow with a team.
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
   - { label: "Projects Built", value: 3, suffix: "" }
@@ -115,7 +115,7 @@ experience:
     role: "Intern"
     period: "2026 – Present"
     description: |
-      Currently interning at Zulfah, where I am being trained in frontend development fundamentals and working alongside the team to build practical skills. Beginning backend development training in the coming months. Received a letter of recommendation for my commitment and progress.
+      Currently interning at Zulfah, where I am being trained in frontend development fundamentals and working alongside the team to build practical skills. Beginning backend development training soon. Received a letter of recommendation for my commitment and progress.
  
 
 
@@ -124,21 +124,21 @@ experience:
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
   - name: "PPA Scout"
-    description: "A website that helps NYSC corps members in Nigeria find their Place of Primary Assignment (PPA). Users can search, filter, and browse companies, schools, and organizations, or submit new entries. Built with vanilla HTML, CSS (Flexbox & Grid), and JavaScript — no frameworks or dependencies. Currently uses sample data for demonstration."
+    description: "A website that helps NYSC corps members in Nigeria find their Place of Primary Assignment (PPA). You can search and filter through companies, schools, and organizations, or add a new one if you know a place that's missing. I built it with plain HTML, CSS (Flexbox and Grid), and JavaScript, with no frameworks or libraries. It currently runs on sample data, so it works as a demo for now."
     tags: [HTML5, CSS3, JavaScript]
     liveUrl: "https://ppa-scout-ng.netlify.app/"
     repoUrl: "https://github.com/rihanat1/ppa-scout"
     featured: true
 
   - name: "RIRISLUXEEATS"
-    description: "A restaurant website where users browse international dishes, search by cuisine, and manage a shopping cart. Guests can browse freely and only sign in at checkout, with details persisted via localStorage. Built with React, Vite, Tailwind CSS, React Router, and the Context API, with dishes from the DummyJSON Recipes API. Performance note: 30 featured dishes are bundled locally so the menu renders instantly on mobile, where the API is slow — API dishes merge in once loaded, with the local list as fallback."
+    description: "A restaurant website where you can explore dishes from around the world, filter by cuisine, and build up a cart. Browsing is open to everyone. Nobody has to make an account until they actually check out, and their details stay saved in the browser through localStorage. I built it with React, Vite, Tailwind CSS, React Router, and the Context API. The recipes come from the DummyJSON Recipes API. One problem I ran into was that the API is slow on mobile, and the menu sat empty for too long. To fix that, I bundled 30 featured dishes into the app so the menu appears instantly. The full list from the API gets merged in once it finishes loading, and if the API ever fails, the built in dishes keep the menu working."
     tags: [React.js, Vite, Tailwind CSS, React Router, Axios]
     liveUrl: "https://ririsluxeeats.netlify.app/"
     repoUrl: "https://github.com/rihanat1/RIRIsLuxeEats"
     featured: true
 
   - name: "YAISHA"
-    description: "A landing page built for a real client — a professional hairstylist. Designed and built from scratch based on the client's specific instructions for how she wanted the site to look and feel. The site features a hero section with a booking button, an about section, a services showcase, client reviews, contact details and others, with a black and gold theme requested by the client to match her brand. Includes external links to her existing Canva payment pages. Built with React.js and Tailwind CSS."
+    description: "A landing page I built using react.js and tailwind css for a real client, a professional hairstylist. I designed it from scratch around her instructions for how she wanted the site to look and feel. It has a hero section with a booking button, an about section, a services showcase, client reviews, and her contact details. The black and gold theme was her request, to match her brand. Booking links go out to her existing Canva payment pages."
     tags: [React.js, Tailwind CSS]
     liveUrl: "https://madebyyaisha.com/"
     repoUrl: "https://github.com/rihanat1/YAISHA"
